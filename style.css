@@ -47,14 +47,14 @@ body{
     transition: 1s;
 }
 .hand.hour{
+    background-color: red;
+    height: 130px;
+    width: 10px;
+}
+.hand.minute{
     background-color: white;
     z-index: 1;
     height: 180px;
-}
-.hand.minute{
-    background-color: red;
-    height: 150px;
-    width: 10px;
 }
 .hand.second{
     z-index: 3;
